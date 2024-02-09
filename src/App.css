@@ -1,7 +1,11 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
+body {
+  /* text-align: center; */
+  box-sizing: border-box;
+  color: #60646C;
+}
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,121 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.nav-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 15px 0;
+  align-items: center;
+}
+.header-timer {
+  background-color: #2c3335;
+  text-align: center;
+  color: #fff;
+}
+
+.content-box {
+  margin: 5% 0;
+}
+.inner-content-box {
+  /* padding: 0 7%; */
+  display: flex;
+}
+
+.left-content {
+  width: 70%;
+  /* border: 2px solid black; */
+}
+
+.right-content {
+  /* background-color: red; */
+  width: 30%;
+  margin: 0 15px;
+  border: 1px solid;
+  height: 47rem;
+  border-radius: 30px;
+}
+
+.text-pay-head {
+  font-style: normal;
+  font-weight: bold;
+  color: #1C2024;
+}
+.section-message {
+  border: 1px solid #7E808A;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+  border-radius: 15px;
+  margin-top: 2.5rem;
+}
+
+.message-title{
+  margin: 0;
+  font-weight: 700;
+  color: #1C2024;
+}
+
+#text-general{
+  color: #1C2024;
+}
+
+.details-form{
+  margin: 3rem 0 2rem 0;
+}
+
+.details-container{
+  margin-top: 2.5rem;
+}
+
+/* .input-form-css{
+  margin: 1.25rem 0;
+} */
+
+input[type=text]{
+  padding: 25px 12px;
+  border-radius: 10px;
+}
+
+.style-form-control{
+  display: flex;
+}
+
+.payment-method1{
+  border: 1px solid black;
+  padding: 7px 10px;
+}
+
+/* ----------------------faq component css----------------------------------------- */
+.question-item{
+  border: 1px solid black;
+    padding: 20px;
+    border-radius: 12px;
+      margin-bottom: 1rem;
+
+}
+.question-item p{
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.question-item p+span{
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* ----------------------faq component css----------------------------------------- */
+.footer-links{
+  margin-left: 6rem;
+}
+
+.footer-links span{
+  margin-right: 20px;
+}
+
+.footer-links a, .footer-links a:hover{
+  color: #ADB1B8;
+  text-decoration: none;
 }
