@@ -1,0 +1,125 @@
+.left-content {
+    width: 70%;
+    margin-right: 1rem;
+    /* border: 2px solid black; */
+  }
+
+  .text-pay-head {
+    font-style: normal;
+    font-weight: bold;
+    color: #1C2024;
+  }
+  
+.section-message {
+    border: 1px solid #7E808A;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+    border-radius: 15px;
+    margin-top: 2.5rem;
+  }
+  
+  .message-title{
+    margin: 0;
+    font-weight: 700;
+    color: #1C2024;
+  }
+  
+#text-general{
+    color: #1C2024;
+  }
+  
+  .details-form{
+    margin: 1rem 0;
+  }
+  
+  .details-container{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* .input-form-css{
+    margin: 1.25rem 0;
+  } */
+
+  
+.form-control{
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    height: 50px;
+  }
+  
+  .style-form-control{
+    display: flex;
+  }
+  
+  .payment-method1{
+    border: 1px solid black;
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  .payment-method2{
+    border: 1px solid black;
+    margin: 37px 0px;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+.savings{
+  background-color: #E9F9EE;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  color: #299764;
+  padding: 0 5px;
+}
+.total-pay{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.charges {
+  display: flex;
+  margin: 1rem 0;
+  align-items: center;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}
+.charges span{
+  margin-right: 5px;
+}
+.cnf-pay-btn{
+  width: 230px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+
+/* --------------------- css for mobile ---------------------- */
+
+@media (max-width: 480px){
+  .left-content{
+    width: 100%;
+    order: 2;
+  }
+  .total-pay{
+   flex-direction: column;
+   align-items: flex-start;
+  }
+  .total-pay h4{
+    order: 2;
+  }
+  
+  
+}
