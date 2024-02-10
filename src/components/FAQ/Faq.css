@@ -1,0 +1,55 @@
+.question-item{
+    border: 1px solid black;
+      padding: 20px;
+      border-radius: 12px;
+        margin-bottom: 1rem;
+  
+  }
+  .question-item p{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  .question-item p+span{
+    margin-right: 10px;
+    width: 20px;
+  }
+  .question-item span{
+    font-weight: bold;
+  }
+
+
+
+  .faq-container>p:first-child{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+  .chat-with-us{
+    background-color: #F9F9FB;
+    padding: 1rem;
+  }
+  .chat-with-us p{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .chat-with-us button{
+    background: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+  }
+
+  /* --------------------- css for mobile ---------------------- */
+
+  
+@media (max-width: 480px){
+
+  .faq>div:first-child{
+    order: 2;
+  }
+  
+  
+}
