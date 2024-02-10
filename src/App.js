@@ -1,30 +1,28 @@
 import "./App.css";
-import HeaderComponent from "./components/HeaderComponent";
-import HeaderTimerComponent from "./components/HeaderTimerComponent";
-import LeftComponent from "./components/LeftComponent";
-import RightComponent from "./components/RightComponent";
-import FaqComponent from "./components/FaqComponent";
-import FooterComponent from "./components/FooterComponent";
+import HeaderComponent from "./components/Header/HeaderComponent";
+import TimerComponent from "./components/Header/TimerComponent";
+import BookingComponent from "./components/BookingDetails/BookingComponent";
+import SummaryComponent from "./components/BookingSummary/SummaryComponent";
+import FaqComponent from "./components/FAQ/FaqComponent";
+import FooterComponent from "./components/Footer/FooterComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <HeaderComponent />
-        <HeaderTimerComponent />
+        <TimerComponent />
       </header>
 
-      <div style={{ padding: "0 6.5rem" }}>
+      <div className="app-container">
         <section className="content-box">
-          <div className="inner-content-box">
-            <LeftComponent />
-            <RightComponent />
-          </div>
+            <BookingComponent />
+            <SummaryComponent />
         </section>
 
         <hr />
         <section className="faq-section">
-          <FaqComponent></FaqComponent>
+          <FaqComponent />
         </section>
 
         <hr />
