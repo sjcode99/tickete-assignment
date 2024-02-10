@@ -2,8 +2,12 @@
     /* background-color: red; */
     width: 30%;
     /* margin: 0 15px; */
-    border: 1px solid;
+    /* border: 1px solid;
     height: 57rem;
+    border-radius: 20px; */
+  }
+  .right-content>div{
+    border: 1px solid;
     border-radius: 20px;
   }
 .carousel-container{
