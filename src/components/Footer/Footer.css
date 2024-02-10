@@ -1,0 +1,34 @@
+.footer-links {
+  margin-left: 6rem;
+}
+
+.footer-links span {
+  margin-right: 20px;
+}
+
+.footer-links a,
+.footer-links a:hover {
+  color: #adb1b8;
+  text-decoration: none;
+}
+
+.tickete-logo-footer {
+  padding: 2rem 6rem;
+}
+
+/* --------------------- css for mobile ---------------------- */
+
+@media (max-width: 480px) {
+  .tickete-logo-footer {
+    padding: 2rem;
+  }
+
+  .footer-links{
+    margin: 2rem;
+    /* display: flex; */
+
+  }
+  .footer-links span {
+    margin-right: 10px;
+  } 
+}
